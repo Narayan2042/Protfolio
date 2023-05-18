@@ -32,7 +32,9 @@ label {
   color: #767676;
   margin-bottom: 10px;
 }
-
+body{
+  background-color: #F5F5F5;
+}
 
 input { 
   width: 100%;
@@ -45,3 +47,23 @@ input {
 input[type='textarea'] {
   height: 210px;
 }
+.contact-form {
+font-size:8px ;
+color: rgb(207, 233, 233);
+}
+
+.contact-form:hover {
+  color: blue;
+}
+
+.main-container {
+  width: 500px;
+}
+
+.contact-form:hover .main-container {
+  border: 2px solid blue;
+}
+
+
+
+
