@@ -1,0 +1,90 @@
+.container-main{
+  display :flex;
+  flex-direction: row;
+  gap: 368px; 
+}
+.container-main:hover{
+  color: blue;
+}
+
+body{
+  background-color:  #FFFFFF;
+}
+.date{
+  background: #FFB400;
+border-radius: 1px;
+
+padding: 4px 8px;
+font-weight: 400;
+font-size: 10px;
+text-align: center;
+color:  #FFFFFF;
+
+}
+.item1-2 {
+  display:flex;
+align-items: center;
+gap: 10px;
+;
+
+}
+.item2 {
+  display:flex;
+  flex-direction: column;
+  gap:36px;
+}
+.web{
+  width: 208px;
+  height: 22px;
+  left: 0px;
+  top: 4px; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #2B2B2B; 
+}
+.student{
+width: 57px;
+height: 24px;
+left: 0px;
+top: 50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+text-transform: capitalize;
+font-feature-settings: 'calt' off, 'kern' off;
+color: #2B2B2B;
+}
+.certificate{
+  width: 234px;
+  height: 22px;
+  left: 368px;
+  top: 0px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+   color: #2B2B2B; 
+}
+.contain{
+width: 536px;
+height: 100px;
+left: 368px;
+top: 50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+text-transform: capitalize;
+font-feature-settings: 'calt' off, 'kern' off;
+color: #767676;
+}
