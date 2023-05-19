@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.main-container{
+  display:flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.image-row{
+  display :flex;
+  gap:20px;
+  align-items: center;
+}
+.name-column{
+  display:flex;
+  flex-direction: column;
+  gap:5px;
+}
+.star{
+  display :flex;
+  gap:10px;
+}
+
+.E-commerce{
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+height: 225px;
+background: #FFFFFF;
+justify-content: center;
+align-items: center;
+}
+
+.E-commerce > img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 31px;
+  
+}
+.blog{
+  margin-top: 20px;
+}
+.image-class{
+  display:flex;
+  gap:30px;
+  text-transform: capitalize;
+}
+

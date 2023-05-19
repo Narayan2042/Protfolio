@@ -2,9 +2,11 @@
   display :flex;
   flex-direction: row;
   gap: 368px; 
+  margin: 30px;
+  color:#FFFFFF;
 }
-.container-main:hover{
-  color: blue;
+.container-main:hover {
+  border: 3px solid blue;
 }
 
 body{
@@ -31,7 +33,9 @@ gap: 10px;
 .item2 {
   display:flex;
   flex-direction: column;
-  gap:36px;
+  gap: 5px;
+  margin-right: 600px;
+
 }
 .web{
   width: 208px;
