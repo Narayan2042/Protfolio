@@ -3,19 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-  /* .icon {
-  display :flex;
-  border-bottom: 1px; 
-}  */
-/* .background {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 24px;
-height: 24px;
-background: #FFB400;
-border-radius: 25px;
-} */
+
 .container1{
   width: 220px;
 }
