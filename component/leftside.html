@@ -8,6 +8,22 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="index.css" />
 </head>
+<style>
+  p.fontsmall {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+  }
+  .headersmall {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+  }
+  </style>
 <body>
   <div id="whole" class="flex justify-between">
   <section id="left" class="flex flex-col gap-[25px] justify-center items-center bg-white h-full w-[25%]  ">
@@ -17,14 +33,14 @@
        <div>
          <img src="/component/Image/main website/Profile (1).png" />
        </div>
-       <img class="absolute w-[16px] h-[16px] bottom-[13%] right-[198px]"
+       <img class="absolute w-[16px] h-[16px] bottom-[13%] left-[89%] bg-[#7EB942] rounded-full"
          src="/component/Image/Available.png" />
      </div>
-     <div class="m-2">
-       <h4>Rayan Adlardard</h4>
-       <p>Font-end Developer</p>
+     <div class="m-[2px]">
+       <h4 class="headersmall">Rayan Adlardard</h4>
+       <p class="fontsmall">Font-end Developer</p>
      </div>
-     <div class="flex flex-row m-3">
+     <div class="flex flex-row m-3 mb-[25px]">
        <div class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl">
          <img src="/component/Image/main website/f.png" />
        </div>
