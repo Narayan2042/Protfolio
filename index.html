@@ -1,848 +1,1192 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="index.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<style>
-  p.fontsmall {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #767676;
-    text-transform: capitalize;
-    font-family: 'Inter';
-  }
-  p.black{
-    font-family: 'Inter';
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    p.fontsmall {
       font-style: normal;
-    font-weight: 400;
-   font-size: 15px;
-   line-height: 24px;
-   text-transform: capitalize;
-   color: #2B2B2B;
-   font-family: 'Inter';
-   font-feature-settings: 'calt' off, 'kern' off;
-  }
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: #767676;
+      text-transform: capitalize;
+      font-family: "Inter";
+    }
+    p.black {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      text-transform: capitalize;
+      color: #2b2b2b;
+      font-family: "Inter";
+      font-feature-settings: "calt" off, "kern" off;
+    }
 
-  .headersmall {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 123.6%;
-    color: #2B2B2B;
-    font-family: 'Inter';
-    text-transform: capitalize;
-  }
-  .headertwo {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 123.6%;
-    color: #2B2B2B;
-    text-transform: capitalize;
-  }
-  .headerfoursmall{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 123.6%;
-text-transform: capitalize;
-color: #2B2B2B;
-  }
-  .headerthree{
-    font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 123.6%;
-text-transform: capitalize;
-color: #2B2B2B
-   }
-   .buttomfont{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-text-transform: capitalize;
-color: #2B2B2B;
-   }
-</style>
+    .headersmall {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 123.6%;
+      color: #2b2b2b;
+      font-family: "Inter";
+      text-transform: capitalize;
+    }
+    .headertwo {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 123.6%;
+      color: #2b2b2b;
+      text-transform: capitalize;
+    }
+    .headerfoursmall {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 123.6%;
+      text-transform: capitalize;
+      color: #2b2b2b;
+    }
+    .headerthree {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 123.6%;
+      text-transform: capitalize;
+      color: #2b2b2b;
+    }
+    .buttomfont {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: capitalize;
+      color: #2b2b2b;
+    }
+  </style>
 
-<body class="bg-[#E5E5E5]">
-  <div id="whole" class="flex justify-between ">
-    <!-- This is from left section1 -->
-    <section id="left"
-      class="flex flex-col gap-y-[25px] justify-center items-center bg-white h-full w-[305px] px-[40px]  ">
-      <!-- This is from left section1-subsection1 -->
-      <div class="flex flex-col items-center border-b-[1.5px]">
-        <div class="relative pt-[50px]">
-          <div>
-            <img src="/Image/main website/Profile (1).png" />
+  <body class="bg-[#E5E5E5]">
+    <div id="whole" class="flex justify-between">
+      <!-- This is from left section1 -->
+      <section
+        id="left"
+        class="flex flex-col gap-y-[25px] justify-center items-center bg-white h-full w-[305px] px-[40px]"
+      >
+        <!-- This is from left section1-subsection1 -->
+        <div class="flex flex-col items-center border-b-[1.5px]">
+          <div class="relative pt-[50px]">
+            <div>
+              <img src="/Image/main website/Profile (1).png" />
+            </div>
+            <img
+              class="absolute w-[16px] h-[16px] bottom-[13%] left-[89%] bg-[#7EB942] rounded-full"
+              src="/Image/Available.png"
+            />
           </div>
-          <img class="absolute w-[16px] h-[16px] bottom-[13%] left-[89%] bg-[#7EB942] rounded-full"
-            src="/Image/Available.png" />
+          <h4 class="headersmall pt-[31px] pb-[15px]">Rayan Adlardard</h4>
+          <p class="fontsmall pb-[15px]">Font-end Developer</p>
+          <div class="flex flex-row mb-[25px]">
+            <div
+              class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl"
+            >
+              <img src="/Image/main website/f.png" />
+            </div>
+            <div
+              class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl"
+            >
+              <img src="/Image/main website/oo.png" />
+            </div>
+            <div
+              class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl"
+            >
+              <img src="/Image/main website/twiter.png" />
+            </div>
+            <div
+              class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl"
+            >
+              <img src="/Image/main website/in.png" />
+            </div>
+            <div
+              class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl"
+            >
+              <img src="/Image/main website/youtube.png" />
+            </div>
+            <div
+              class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl"
+            >
+              <img src="/Image/main website/ball.png" />
+            </div>
+          </div>
         </div>
-        <h4 class="headersmall pt-[31px] pb-[15px]">Rayan Adlardard</h4>
-        <p class="fontsmall pb-[15px]">Font-end Developer</p>
-        <div class="flex flex-row mb-[25px]">
-          <div class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl">
-            <img src="/Image/main website/f.png" />
+        <!-- This is from left section1-subsection2 -->
+        <div class="flex justify-between w-full border-b-[1.5px]">
+          <div class="flex flex-col gap-y-[9px]">
+            <p class="fontsmall bg-[#FFB400] px-[2px] w-[46px] h-[24px]">
+              Age:
+            </p>
+            <p class="fontsmall bg-[#FFB400] px-[2px] w-[78px] h-[24px]">
+              Residence:
+            </p>
+            <p class="fontsmall bg-[#FFB400] px-[2px] w-[74px] h-[24px]">
+              Freelance:
+            </p>
+            <p class="fontsmall bg-[#FFB400] px-[2px] w-[63px] h-[24px]">
+              Address:
+            </p>
           </div>
-          <div class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl">
-            <img src="/Image/main website/oo.png" />
-          </div>
-          <div class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl">
-            <img src="/Image/main website/twiter.png" />
-          </div>
-          <div class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl">
-            <img src="/Image/main website/in.png" />
-          </div>
-          <div class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl">
-            <img src="/Image/main website/youtube.png" />
-          </div>
-          <div class="flex items-center justify-center bg-amber-500 m-1 p-1 w-6 h-6 rounded-3xl">
-            <img src="/Image/main website/ball.png" />
+          <div class="flex flex-col items-end gap-y-[9px] mb-[25px]">
+            <p class="fontsmall">24</p>
+            <p class="fontsmall">BD</p>
+            <p class="fontsmall">
+              <span class="text-[#7EB942]">Available</span>
+            </p>
+            <p class="fontsmall">Dhaka,Bangladesh</p>
           </div>
         </div>
+        <!-- This is from left section1-subsection3 -->
+        <div id="languages" class="w-full border-b-[1.5px]">
+          <h4 class="headersmall pb-[15px]">Languages</h4>
+          <div id="bangla" class="w-[100%]">
+            <div class="flex justify-between">
+              <p class="p.fontsmall">Bangla</p>
+              <p class="p.fontsmall">100%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[100%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+          <div id="English" class="">
+            <div class="flex justify-between w-[100%]">
+              <p class="p.fontsmall">English</p>
+              <p class="p.fontsmall">80%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[80%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+          <div id="Spanish" class="mt-[10px] mb-[26px]">
+            <div class="flex justify-between w-[100%]">
+              <p class="p.fontsmall">Spanish</p>
+              <p class="p.fontsmall">60%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[60%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+          <border class="border-b-[1.5px] border-[#F0F0F6]"></border>
+        </div>
+        <!-- This is from left section1-subsection4 -->
+        <div id="skills" class="w-full border-b-[1.5px]">
+          <h4 class="headersmall pb-[15px]">Skills</h4>
+          <div id="HTML" class=" ">
+            <div class="flex justify-between w-[100%]">
+              <p class="p.fontsmall">Html</p>
+              <p class="p.fontsmall">90%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[90%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+          <div id="CSS" class="">
+            <div class="flex justify-between w-[100%]">
+              <p class="p.fontsmall">CSS</p>
+              <p class="p.fontsmall">85%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[85%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+          <div id="Js" class=" ">
+            <div class="flex justify-between w-[100%]">
+              <p class="p.fontsmall">Js</p>
+              <p class="p.fontsmall">80%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[80%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+          <div id="PHP" class=" ">
+            <div class="flex justify-between w-[100%]">
+              <p class="p.fontsmall">PHP</p>
+              <p class="p.fontsmall">75%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[75%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+          <div id="WordPress" class="mb-[25px]">
+            <div class="flex justify-between w-[100%]">
+              <p class="p.fontsmall">WordPress</p>
+              <p class="p.fontsmall">85%</p>
+            </div>
+            <div
+              id="progress-bar"
+              class="flex items-center w-[100%] h-[6px] rounded-[30px] border-[0.5px] border-[#FFB400] mt-[6px]"
+            >
+              <div
+                class="w-[85%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <!-- This is from left section1-subsection5 -->
+        <div id="extraskill" class="w-full">
+          <h4 class="headersmall">Extra Skills</h4>
+          <div class="border-b-[1.5px]">
+            <div class="flex gap-x-[15px] items-center mt-[15px]">
+              <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
+              <p class="fontsmall">Bootstrap, Materialize</p>
+            </div>
+            <div class="flex gap-x-[15px] items-center">
+              <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
+              <p class="fontsmall">Stylus, Sass, Less</p>
+            </div>
+            <div class="flex gap-x-[15px] items-center">
+              <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
+              <p class="fontsmall">Gulp, Webpack, Grunt</p>
+            </div>
+            <div class="flex gap-x-[15px] items-center mb-[25px]">
+              <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
+              <p class="fontsmall">GIT Knowledge</p>
+            </div>
+          </div>
 
-      </div>
-      <!-- This is from left section1-subsection2 -->
-      <div class="flex  justify-between w-full border-b-[1.5px]  ">
-
-        <div class="  flex flex-col gap-y-[9px]">
-          <p class="fontsmall bg-[#FFB400] px-[2px] w-[46px] h-[24px]">Age:</p>
-          <p class="fontsmall bg-[#FFB400] px-[2px] w-[78px] h-[24px]">Residence:</p>
-          <p class="fontsmall bg-[#FFB400] px-[2px] w-[74px] h-[24px]">Freelance:</p>
-          <p class="fontsmall bg-[#FFB400] px-[2px] w-[63px] h-[24px]">Address: </p>
+          <button
+            class="flex items-center justify-center gap-[6%] border-2 bg-amber-500 w-[85%] my-[25px]"
+          >
+            <p>Download CV</p>
+            <img class="w-[11px] h-[12px]" src="/Image/download1.png" />
+          </button>
         </div>
-        <div class="flex flex-col items-end gap-y-[9px] mb-[25px] ">
-          <p class="fontsmall">24</p>
-          <p class="fontsmall">BD</p>
-          <p class="fontsmall "><span class="text-[#7EB942]">Available</span></p>
-          <p class="fontsmall">Dhaka,Bangladesh</p>
-        </div>
-      </div>
-      <!-- This is from left section1-subsection3 -->
-      <div id="languages" class=" w-full  border-b-[1.5px] ">
-        <h4 class="headersmall pb-[15px] ">Languages</h4>
-        <div id="bangla" class="w-[100%] ">
-          <div class=" flex justify-between">
-            <p class="p.fontsmall">Bangla</p>
-            <p class="p.fontsmall">100%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[100%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px] "></div>
-          </div>
-        </div>
-        <div id="English" class="">
-          <div class=" flex justify-between w-[100%]">
-            <p class="p.fontsmall">English</p>
-            <p class="p.fontsmall">80%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[80%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px] "></div>
-          </div>
-        </div>
-        <div id="Spanish" class="mt-[10px] mb-[26px]">
-          <div class=" flex justify-between w-[100%]">
-            <p class="p.fontsmall">Spanish</p>
-            <p class="p.fontsmall">60%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[60%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px] "></div>
-          </div>
-        </div>
-        <border class="border-b-[1.5px] border-[#F0F0F6]"></border>
-      </div>
-      <!-- This is from left section1-subsection4 -->
-      <div id="skills" class=" w-full  border-b-[1.5px]  ">
-        <h4 class="headersmall pb-[15px]">Skills</h4>
-        <div id="HTML" class=" ">
-          <div class=" flex justify-between w-[100%]    ">
-            <p class="p.fontsmall">Html</p>
-            <p class="p.fontsmall">90%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[90%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]  "></div>
-          </div>
-        </div>
-        <div id="CSS" class="">
-          <div class=" flex justify-between w-[100%]     ">
-            <p class="p.fontsmall">CSS</p>
-            <p class="p.fontsmall">85%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[85%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px] "></div>
-          </div>
-        </div>
-        <div id="Js" class=" ">
-          <div class=" flex justify-between w-[100%]     ">
-            <p class="p.fontsmall">Js</p>
-            <p class="p.fontsmall">80%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[80%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]  "></div>
-          </div>
-        </div>
-        <div id="PHP" class=" ">
-          <div class=" flex justify-between w-[100%]     ">
-            <p class="p.fontsmall">PHP</p>
-            <p class="p.fontsmall">75%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[75%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px] "></div>
-          </div>
-        </div>
-        <div id="WordPress" class="mb-[25px]">
-          <div class=" flex justify-between w-[100%]     ">
-            <p class="p.fontsmall">WordPress</p>
-            <p class="p.fontsmall">85%</p>
-          </div>
-          <div id="progress-bar"
-            class=" flex  items-center w-[100%] h-[6px] rounded-[30px]  border-[0.5px] border-[#FFB400] mt-[6px] ">
-            <div class="w-[85%] h-[2px] rounded-[30px] bg-[#FFB400] mb-[1px] mt-[1px]  "></div>
-          </div>
-        </div>
-
-      </div>
-      <!-- This is from left section1-subsection5 -->
-      <div id="extraskill" class=" w-full  ">
-        <h4 class="headersmall">Extra Skills</h4>
-        <div class=" border-b-[1.5px]  ">
-          <div class="flex gap-x-[15px] items-center mt-[15px]">
-            <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
-            <p class="fontsmall">Bootstrap, Materialize</p>
-          </div>
-          <div class="flex gap-x-[15px] items-center">
-            <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
-            <p class="fontsmall">Stylus, Sass, Less</p>
-          </div>
-          <div class="flex gap-x-[15px] items-center">
-            <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
-            <p class="fontsmall">Gulp, Webpack, Grunt</p>
-          </div>
-          <div class="flex gap-x-[15px] items-center mb-[25px]">
-            <img class="w-[15px] h-[15px]" src="/Image/doublesquare.png" />
-            <p class="fontsmall">GIT Knowledge</p>
-          </div>
-        </div>
-
-
-        <button class="flex items-center justify-center gap-[6%] border-2 bg-amber-500 w-[85%] my-[25px] ">
-          <p>Download CV</p>
-          <img class="w-[11px] h-[12px]" src="/Image/download1.png" />
-        </button>
-      </div>
-    </section>
-    <!-- This is form middle section2 -->
-    <section id="middle" class=" flex flex-col w-full px-[20px] py-[10px] mr-[4%] ">
-      <!-- This is form heading subsection1 -->
-      <div class="flex  justify-between bg-slate-50 w-full px-[40px] gap-y-[18px] ">
+      </section>
+      <!-- This is form middle section2 -->
+      <section
+        id="middle"
+        class="flex flex-col w-full px-[20px] py-[10px] mr-[4%]"
+      >
+        <!-- This is form heading subsection1 -->
+        <div
+          class="flex justify-between bg-slate-50 w-full px-[40px] gap-y-[18px] relative"
+        >
           <div class="flex flex-col px-[35px] gap-y-[15px]">
-            <p class="w-[500px] h-[118px] mt-[93px] font-[700] text-[48px] leading-[123.6%]">
-            I’m Rayan Adlrdard
-            <span class="text-[#FFB400]">Front-end</span> Developer
-          </p>
-           <p class=" font-[400] text-16px leading-[24px] w-[424px] h-[88px]">
+            <p
+              class="w-[500px] h-[118px] mt-[93px] font-[700] text-[48px] leading-[123.6%]"
+            >
+              I’m Rayan Adlrdard
+              <span class="text-[#FFB400]">Front-end</span> Developer
+            </p>
+            <p class="font-[400] text-16px leading-[24px] w-[424px] h-[88px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
               volutpat feugiat placerat lobortis. Natoque rutrum semper sed
               suspendisse nunc lectus.
             </p>
-             <button class="flex items-center justify-center gap-[6%] border-2 bg-amber-500 w-[154px] h-[51px]">
-            <p>HIRE ME</p>
-            <img src="/image/secondcol/arrow.png" />
-          </button>
-        </div>
-       <div class="w-[325.72px] h-[495.09px] pt-[35px] mr-[45px]">
-        <img src="/image/secondcol/Your Image 1.png" />
-      </div>   
-      </div>
-  <!-- This is form myservice subsection2 -->
-  <div id="myservices" class="flex flex-col gap-[25px] items-center mt-[70px] w-full">
-    <h2 class="headertwo">My Services</h2>
-    <p class="w-[438px] h-[68] text-center fontsmall">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-      amet sint. Velit officia consequat duis enim velit mollit. lorem
-      ipsum
-    </p>
-    <div class="grid grid-cols-3 mt-[25px] gap-[20px]">
-      <div class="flex flex-col items-center bg-white py-[37px] gap-[15px] ">
-        <img src="/Image/webdev.png">
-        <h4 class="headerfoursmall">Web Development</h4>
-        <p class="fontsmall">blog, e-commerce</p>
-      </div>
-      <div class="flex flex-col items-center  bg-white py-[37px] gap-[15px]">
-        <img src="/Image/UIUX.png">
-        <h4 class="headerfoursmall">uI/uX design</h4>
-        <p class="fontsmall">Mobile app, website design</p>
-      </div>
-      <div class="flex flex-col items-center bg-white py-[37px] gap-[15px]">
-        <img src="/Image/Microphone.png">
-        <h4 class="headerfoursmall">sound design</h4>
-        <p class="fontsmall">Voice Over, Beat Making</p>
-      </div>
-      <div class="flex flex-col items-center bg-white py-[37px] gap-[15px]">
-        <img src="/Image/game-development.png">
-        <h4 class="headerfoursmall">game design</h4>
-        <p class="fontsmall">Character Design, Props & Objects</p>
-      </div>
-      <div class="flex flex-col items-center bg-white py-[37px] gap-[15px]">
-        <img src="/Image/Microphone.png">
-        <h4 class="headerfoursmall">photography</h4>
-        <p class="fontsmall">portrait, product photography</p>
-      </div>
-      <div class="flex flex-col items-center bg-white py-[37px] gap-[15px]">
-        <h4 class="headerfoursmall">advertising</h4>
-        <p class="fontsmall px-[60px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. </p>
-        <div class="flex items-center justify-center"><p class="text-[#FFB400] font-[700] text-[12px] leading-[14px]">ORDER NOW</p> <img src="/Image/side arrow yellow.png">
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- This is form pricelan subsection3 -->
-  <div id="priceplan" class="flex flex-col gap-[25px] items-center mt-[70px] w-full ">
-    <h2 class="headertwo">Price plans</h2>
-    <p class="w-[438px] h-[68] text-center fontsmall">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-      sint. Velit officia consequat duis enim
-      velit mollit. lorem ipsum</p>
-    <div class="grid grid-cols-3 gap-[21px] w-full mt-[25px] ">
-     <div class="flex flex-col  mt-[20px] bg-[#FFFFFF] ">
-        <div id="silver" class=" flex flex-col justify-center items-center  pt-[54px] gap-y-[25px] ">
-          <h3 class="headerthree ">Silver</h3>
-          <div class="flex gap-x-[6px] ">
-          <h3 class="headertwo">$0.00</h3>
-          <p class="black py-4">/hour</p>
-        </div></div>
-        <p class=" w-[248px] h-[48px] text-center mx-[31px]  fontsmall mb-[25px] ">For most businesses that want to optimize web queries</p>
-        
-        <div class="flex flex-col   mx-[36px] gap-y-[17px] pt-[21px]">
-          
-          <div class="flex gap-[19px]"><img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png">
-            <p class="black">UI Design</p>
+            <button
+              class="flex items-center justify-center gap-[6%] border-2 bg-amber-500 w-[154px] h-[51px]"
+            >
+              <p>HIRE ME</p>
+              <img src="/image/secondcol/arrow.png" />
+            </button>
           </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">web development</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">logo design</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">seo optimization</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">wordPress integration</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">5 Websites</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">unlimited user</p>
-          </div>
-          <div class="flex gap-[18px] "><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">20 gB bandwith</p>
-          </div></div>
-          <button class=" buttomfont border rounded-[30px] w-[169px] h-[38px]   mx-[150px] my-[25px]">ORDER
-            NOW</button>
-      </div>
-      <div class="flex flex-col  mt-[20px] bg-[#FFFFFF] ">
-        <p class="black text-center bg-[#FFB400] h-[30px]">most popular</p>
-        <div id="silver" class=" flex flex-col justify-center items-center  pt-[25px] gap-y-[25px] ">
-          <h3 class="headerthree ">gold</h3>
-          <div class="flex gap-x-[6px] ">
-          <h3 class="headertwo">$50.00</h3>
-          <p class="black py-4">/hour</p>
-        </div></div>
-        <p class=" w-[248px] h-[48px] text-center mx-[31px]  fontsmall mb-[25px] ">For most businesses that want to optimize web queries</p>
-        
-        <div class="flex flex-col   mx-[36px] gap-y-[17px] pt-[21px]">
-          
-          <div class="flex gap-[19px]"><img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png">
-            <p class="black">UI Design</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">web development</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/tick1.png">
-            <p class="black">logo design</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">seo optimization</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/Close.png">
-            <p class="fontsmall">wordPress integration</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">5 Websites</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">unlimited user</p>
-          </div>
-          <div class="flex gap-[18px] "><img class="w-w-[13px] h[13px]" src="/Image/Close.png">
-            <p class="fontsmall">20 gB bandwith</p>
-          </div></div>
-          <button class=" buttomfont border rounded-[30px] w-[169px] h-[38px]   mx-[150px] my-[25px] bg-[#FFB400]">ORDER
-            NOW</button>
-      </div>
-      <div class="flex flex-col  mt-[20px] bg-[#FFFFFF] ">
-        <div id="silver" class=" flex flex-col justify-center items-center  pt-[54px] gap-y-[25px] ">
-          <h3 class="headerthree ">dimond</h3>
-          <div class="flex gap-x-[6px] ">
-          <h3 class="headertwo">$80.00</h3>
-          <p class="black py-4">/hour</p>
-        </div></div>
-        <p class=" w-[248px] h-[48px] text-center mx-[31px]  fontsmall mb-[25px] ">For most businesses that want to optimize web queries</p>
-        
-        <div class="flex flex-col   mx-[36px] gap-y-[17px] pt-[21px]">
-          
-          <div class="flex gap-[19px]"><img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png">
-            <p class="black">UI Design</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">web development</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="back">logo design</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">seo optimization</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">wordPress integration</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">5 Websites</p>
-          </div>
-          <div class="flex gap-[18px]"><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">unlimited user</p>
-          </div>
-          <div class="flex gap-[18px] "><img class="w-w-[17px] h[12px]" src="/Image/tick1.png">
-            <p class="black">20 gB bandwith</p>
-          </div></div>
-          <button class=" buttomfont border rounded-[30px] w-[169px] h-[38px]   mx-[150px] my-[25px]">ORDER
-            NOW</button>
-      </div>
-    </div>
-  </div>
-  <!-- This is form recomdation subsection4 -->
-  <div id="recomdation" class="flex flex-col gap-[25px] items-center mt-[70px] w-full">
-      <h2 class=" headertwo">Recommendations</h2>
-      <p class="fontsmall w-[438px] h-[68] text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-        consequat duis enim velit mollit. lorem ipsum</p>
-    
-    <div class="grid grid-cols-3  gap-x-[25px] mt-[25px]">
-      <div class="flex flex-col bg-[#FFFFFF] gap-y-[18px] px-[25px] pt-[25px] ">
-        <div class="flex ">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-        </div>
-        <div>
-          <h2 class="headerfoursmall">Great Quality!</h2>
-          <p class="fontsmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna
-            viverra morbi. Morbi donec amet....</p>
-        </div>
-        <div class="flex py-[25px] gap-x-[13px]">
-          <div><img src="/Image/jamesgouse.png"></div>
-          <div class="flex flex-col items-center justify-center gap-y-[5px]">
-            <h4 class="headerfoursmall">James Gouse</h4>
-            <p class="fontsmall">Graphic Designer</p>
+          <div class="w-[325.72px] h-[495.09px] pt-[35px] mr-[45px]">
+            <img src="/image/secondcol/Your Image 1.png" />
           </div>
         </div>
+        <!-- This is form myservice subsection2 -->
+        <div
+          id="myservices"
+          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+        >
+          <h2 class="headertwo">My Services</h2>
+          <p class="w-[438px] h-[68] text-center fontsmall">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+          </p>
+          <div class="grid grid-cols-3 mt-[25px] gap-[20px]">
+            <div
+              class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
+            >
+              <img src="/Image/webdev.png" />
+              <h4 class="headerfoursmall">Web Development</h4>
+              <p class="fontsmall">blog, e-commerce</p>
+            </div>
+            <div
+              class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
+            >
+              <img src="/Image/UIUX.png" />
+              <h4 class="headerfoursmall">uI/uX design</h4>
+              <p class="fontsmall">Mobile app, website design</p>
+            </div>
+            <div
+              class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
+            >
+              <img src="/Image/Microphone.png" />
+              <h4 class="headerfoursmall">sound design</h4>
+              <p class="fontsmall">Voice Over, Beat Making</p>
+            </div>
+            <div
+              class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
+            >
+              <img src="/Image/game-development.png" />
+              <h4 class="headerfoursmall">game design</h4>
+              <p class="fontsmall">Character Design, Props & Objects</p>
+            </div>
+            <div
+              class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
+            >
+              <img src="/Image/Microphone.png" />
+              <h4 class="headerfoursmall">photography</h4>
+              <p class="fontsmall">portrait, product photography</p>
+            </div>
+            <div
+              class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
+            >
+              <h4 class="headerfoursmall">advertising</h4>
+              <p class="fontsmall px-[60px] text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna viverra morbi.
+              </p>
+              <div class="flex items-center justify-center">
+                <p class="text-[#FFB400] font-[700] text-[12px] leading-[14px]">
+                  ORDER NOW
+                </p>
+                <img src="/Image/side arrow yellow.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- This is form pricelan subsection3 -->
+        <div
+          id="priceplan"
+          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+        >
+          <h2 class="headertwo">Price plans</h2>
+          <p class="w-[438px] h-[68] text-center fontsmall">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+          </p>
+          <div class="grid grid-cols-3 gap-[21px] w-full mt-[25px]">
+            <div class="flex flex-col mt-[20px] bg-[#FFFFFF]">
+              <div
+                id="silver"
+                class="flex flex-col justify-center items-center pt-[54px] gap-y-[25px]"
+              >
+                <h3 class="headerthree">Silver</h3>
+                <div class="flex gap-x-[6px]">
+                  <h3 class="headertwo">$0.00</h3>
+                  <p class="black py-4">/hour</p>
+                </div>
+              </div>
+              <p
+                class="w-[248px] h-[48px] text-center mx-[31px] fontsmall mb-[25px]"
+              >
+                For most businesses that want to optimize web queries
+              </p>
 
+              <div class="flex flex-col mx-[36px] gap-y-[17px] pt-[21px]">
+                <div class="flex gap-[19px]">
+                  <img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
+                  <p class="black">UI Design</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">web development</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">logo design</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">seo optimization</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">wordPress integration</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">5 Websites</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">unlimited user</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">20 gB bandwith</p>
+                </div>
+              </div>
+              <button
+                class="buttomfont border rounded-[30px] w-[169px] h-[38px] mx-[150px] my-[25px]"
+              >
+                ORDER NOW
+              </button>
+            </div>
+            <div class="flex flex-col mt-[20px] bg-[#FFFFFF]">
+              <p class="black text-center bg-[#FFB400] h-[30px]">
+                most popular
+              </p>
+              <div
+                id="silver"
+                class="flex flex-col justify-center items-center pt-[25px] gap-y-[25px]"
+              >
+                <h3 class="headerthree">gold</h3>
+                <div class="flex gap-x-[6px]">
+                  <h3 class="headertwo">$50.00</h3>
+                  <p class="black py-4">/hour</p>
+                </div>
+              </div>
+              <p
+                class="w-[248px] h-[48px] text-center mx-[31px] fontsmall mb-[25px]"
+              >
+                For most businesses that want to optimize web queries
+              </p>
 
-      </div>
-      <div class="flex flex-col bg-[#FFFFFF] gap-y-[18px] px-[25px] pt-[25px] ">
-        <div class="flex ">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-        </div>
-        <div>
-          <h2 class="headerfoursmall">Amazing work!</h2>
-          <p class="fontsmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna
-            viverra morbi. Morbi donec amet....</p>
-        </div>
-        <div class="flex py-[25px] gap-x-[13px]">
-          <div><img src="/Image/tiana.png"></div>
-          <div class="flex flex-col items-center justify-center gap-y-[5px]">
-            <h4 class="headerfoursmall">Tiana Philips</h4>
-            <p class="fontsmall">Photographer</p>
-          </div>
-        </div>
+              <div class="flex flex-col mx-[36px] gap-y-[17px] pt-[21px]">
+                <div class="flex gap-[19px]">
+                  <img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
+                  <p class="black">UI Design</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">web development</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/tick1.png" />
+                  <p class="black">logo design</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">seo optimization</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/Close.png" />
+                  <p class="fontsmall">wordPress integration</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">5 Websites</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">unlimited user</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <p class="fontsmall">20 gB bandwith</p>
+                </div>
+              </div>
+              <button
+                class="buttomfont border rounded-[30px] w-[169px] h-[38px] mx-[150px] my-[25px] bg-[#FFB400]"
+              >
+                ORDER NOW
+              </button>
+            </div>
+            <div class="flex flex-col mt-[20px] bg-[#FFFFFF]">
+              <div
+                id="silver"
+                class="flex flex-col justify-center items-center pt-[54px] gap-y-[25px]"
+              >
+                <h3 class="headerthree">dimond</h3>
+                <div class="flex gap-x-[6px]">
+                  <h3 class="headertwo">$80.00</h3>
+                  <p class="black py-4">/hour</p>
+                </div>
+              </div>
+              <p
+                class="w-[248px] h-[48px] text-center mx-[31px] fontsmall mb-[25px]"
+              >
+                For most businesses that want to optimize web queries
+              </p>
 
+              <div class="flex flex-col mx-[36px] gap-y-[17px] pt-[21px]">
+                <div class="flex gap-[19px]">
+                  <img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
+                  <p class="black">UI Design</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">web development</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="back">logo design</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">seo optimization</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">wordPress integration</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">5 Websites</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">unlimited user</p>
+                </div>
+                <div class="flex gap-[18px]">
+                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <p class="black">20 gB bandwith</p>
+                </div>
+              </div>
+              <button
+                class="buttomfont border rounded-[30px] w-[169px] h-[38px] mx-[150px] my-[25px]"
+              >
+                ORDER NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- This is form recomdation subsection4 -->
+        <div
+          id="recomdation"
+          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+        >
+          <h2 class="headertwo">Recommendations</h2>
+          <p class="fontsmall w-[438px] h-[68] text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+          </p>
 
-      </div>
-      <div class="flex flex-col bg-[#FFFFFF] gap-y-[18px] px-[25px] pt-[25px] ">
-        <div class="flex ">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-          <img class="w-[18px] h-[17.37px]" src="/Image/star.png">
-        </div>
-        <div>
-          <h2 class="headerfoursmall">Great Quality!</h2>
-          <p class="fontsmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna
-            viverra morbi. Morbi donec amet....</p>
-        </div>
-        <div class="flex py-[25px] gap-x-[13px]">
-          <div><img src="/Image/talan.png"></div>
-          <div class="flex flex-col items-center justify-center gap-y-[5px]">
-            <h4 class="headerfoursmall">Talan Westervelt</h4>
-            <p class="fontsmall">Business man</p>
+          <div class="grid grid-cols-3 gap-x-[25px] mt-[25px]">
+            <div
+              class="flex flex-col bg-[#FFFFFF] gap-y-[18px] px-[25px] pt-[25px]"
+            >
+              <div class="flex">
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+              </div>
+              <div>
+                <h2 class="headerfoursmall">Great Quality!</h2>
+                <p class="fontsmall">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  nulla diam in ac dictum a urna viverra morbi. Morbi donec
+                  amet....
+                </p>
+              </div>
+              <div class="flex py-[25px] gap-x-[13px]">
+                <div><img src="/Image/jamesgouse.png" /></div>
+                <div
+                  class="flex flex-col items-center justify-center gap-y-[5px]"
+                >
+                  <h4 class="headerfoursmall">James Gouse</h4>
+                  <p class="fontsmall">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col bg-[#FFFFFF] gap-y-[18px] px-[25px] pt-[25px]"
+            >
+              <div class="flex">
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+              </div>
+              <div>
+                <h2 class="headerfoursmall">Amazing work!</h2>
+                <p class="fontsmall">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  nulla diam in ac dictum a urna viverra morbi. Morbi donec
+                  amet....
+                </p>
+              </div>
+              <div class="flex py-[25px] gap-x-[13px]">
+                <div><img src="/Image/tiana.png" /></div>
+                <div
+                  class="flex flex-col items-center justify-center gap-y-[5px]"
+                >
+                  <h4 class="headerfoursmall">Tiana Philips</h4>
+                  <p class="fontsmall">Photographer</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col bg-[#FFFFFF] gap-y-[18px] px-[25px] pt-[25px]"
+            >
+              <div class="flex">
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+                <img class="w-[18px] h-[17.37px]" src="/Image/star.png" />
+              </div>
+              <div>
+                <h2 class="headerfoursmall">Great Quality!</h2>
+                <p class="fontsmall">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  nulla diam in ac dictum a urna viverra morbi. Morbi donec
+                  amet....
+                </p>
+              </div>
+              <div class="flex py-[25px] gap-x-[13px]">
+                <div><img src="/Image/talan.png" /></div>
+                <div
+                  class="flex flex-col items-center justify-center gap-y-[5px]"
+                >
+                  <h4 class="headerfoursmall">Talan Westervelt</h4>
+                  <p class="fontsmall">Business man</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex item-center justify-center gap-[10px] mt-[50px]">
+            <img class="w-[10px] h-[10px]" src="/Image/yellowdot.png" />
+            <img class="w-[10px] h-[10px]" src="/Image/yellowdot.png" />
+            <img class="w-[10px] h-[10px]" src="/Image/yellowdot.png" />
           </div>
         </div>
-
-
-      </div>
-    </div>
-    <div class="flex item-center justify-center gap-[10px] mt-[50px]">
-      <img class="w-[10px] h-[10px]" src="/Image/yellowdot.png">
-      <img class="w-[10px] h-[10px]" src="/Image/yellowdot.png">
-      <img class="w-[10px] h-[10px]" src="/Image/yellowdot.png">
-    </div>
-  </div>
-  <!-- This is form education subsection5 -->
-  <div id="Education" class="flex flex-col gap-[25px] items-center mt-[70px] w-full">
-      <h2 class="headertwo">Education</h2>
-      <p class=" w-[438px] h-[68px] fontsmall text-center">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-        velit mollit. lorem ipsum</p>
-        <div class="flex flex-col bg-[#FFFFFF] w-full mt-[25px]">
-      <div id="Ea" class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]">
-        <div class="flex flex-col gap-y-[25px]">
-          <h4 class="headerfoursmall">University of Toronto</h4>
-          <div class="flex gap-[21px] ">
-            <p>Student</p>
-            <p class=" w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]">
-              Jan 1016 - Dec 2021</p>
+        <!-- This is form education subsection5 -->
+        <div
+          id="Education"
+          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+        >
+          <h2 class="headertwo">Education</h2>
+          <p class="w-[438px] h-[68px] fontsmall text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+          </p>
+          <div class="flex flex-col bg-[#FFFFFF] w-full mt-[25px]">
+            <div
+              id="Ea"
+              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+            >
+              <div class="flex flex-col gap-y-[25px]">
+                <h4 class="headerfoursmall">University of Toronto</h4>
+                <div class="flex gap-[21px]">
+                  <p>Student</p>
+                  <p
+                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                  >
+                    Jan 1016 - Dec 2021
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+                <h4
+                  class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
+                >
+                  Certificate of web training
+                </h4>
+                <p class="fontsmall w-[536px] h-[100px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                  dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                  posuere fusce tempus etiam et pellentesque. Molestie risus
+                  enim neque eget dui.
+                </p>
+              </div>
+            </div>
+            <div
+              id="Eb"
+              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+            >
+              <div class="flex flex-col gap-y-[25px]">
+                <h4 class="headerfoursmall">Programming Course</h4>
+                <div class="flex gap-[21px]">
+                  <p>Student</p>
+                  <p
+                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                  >
+                    Jan 1016 - Dec 2021
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+                <h4
+                  class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
+                >
+                  Certificate of web training
+                </h4>
+                <p class="fontsmall w-[536px] h-[100px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                  dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                  posuere fusce tempus etiam et pellentesque. Molestie risus
+                  enim neque eget dui.
+                </p>
+              </div>
+            </div>
+            <div
+              id="Ec"
+              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+            >
+              <div class="flex flex-col gap-y-[25px]">
+                <h4 class="headerfoursmall">Web developer courses</h4>
+                <div class="flex gap-[21px]">
+                  <p>Student</p>
+                  <p
+                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                  >
+                    Jan 1016 - Dec 2021
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+                <h4
+                  class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
+                >
+                  Certificate of web training
+                </h4>
+                <p class="fontsmall w-[536px] h-[100px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                  dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                  posuere fusce tempus etiam et pellentesque. Molestie risus
+                  enim neque eget dui.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
-          <h4 class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]  ">Certificate of web training</h4>
-          <p class="fontsmall w-[536px]  h-[100px] ">Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
-            Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-            risus enim neque eget dui.</p>
-        </div>
-      </div>
-      <div id="Eb" class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]">
-        <div class="flex flex-col gap-y-[25px]">
-          <h4 class="headerfoursmall">Programming Course</h4>
-          <div class="flex gap-[21px] ">
-            <p>Student</p>
-            <p class=" w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]">
-              Jan 1016 - Dec 2021</p>
+        <!-- This is form workhistory subsection6 -->
+        <div
+          id="WorkHistory"
+          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+        >
+          <h2 class="headertwo">Work History</h2>
+          <p class="w-[438px] h-[68px] fontsmall text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+          </p>
+          <div class="flex flex-col bg-[#FFFFFF] w-full mt-[25px]">
+            <div
+              id="Wa"
+              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+            >
+              <div class="flex flex-col gap-y-[25px]">
+                <h4 class="headerfoursmall">Lead Web Designer</h4>
+                <div class="flex gap-[21px]">
+                  <p>Student</p>
+                  <p
+                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                  >
+                    Jan 1016 - Dec 2021
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+                <h4
+                  class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
+                >
+                  Certificate of web training
+                </h4>
+                <p class="fontsmall w-[536px] h-[100px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                  dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                  posuere fusce tempus etiam et pellentesque. Molestie risus
+                  enim neque eget dui.
+                </p>
+              </div>
+            </div>
+            <div
+              id="Wb"
+              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+            >
+              <div class="flex flex-col gap-y-[25px]">
+                <h4 class="headerfoursmall">Junior Web Designer</h4>
+                <div class="flex gap-[21px]">
+                  <p>Student</p>
+                  <p
+                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                  >
+                    Jan 1016 - Dec 2021
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+                <h4
+                  class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
+                >
+                  Certificate of web training
+                </h4>
+                <p class="fontsmall w-[536px] h-[100px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                  dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                  posuere fusce tempus etiam et pellentesque. Molestie risus
+                  enim neque eget dui.
+                </p>
+              </div>
+            </div>
+            <div
+              id="Ec"
+              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+            >
+              <div class="flex flex-col gap-y-[25px]">
+                <h4 class="headerfoursmall">Senior Web Designer</h4>
+                <div class="flex gap-[21px]">
+                  <p>Student</p>
+                  <p
+                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                  >
+                    Jan 1016 - Dec 2021
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+                <h4
+                  class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
+                >
+                  Certificate of web training
+                </h4>
+                <p class="fontsmall w-[536px] h-[100px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                  dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+                  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
+                  posuere fusce tempus etiam et pellentesque. Molestie risus
+                  enim neque eget dui.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
-          <h4 class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]  ">Certificate of web training</h4>
-          <p class="fontsmall w-[536px]  h-[100px] ">Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
-            Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-            risus enim neque eget dui.</p>
-        </div>
-      </div>
-      <div id="Ec" class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]">
-        <div class="flex flex-col gap-y-[25px]">
-          <h4 class="headerfoursmall">Web developer courses</h4>
-          <div class="flex gap-[21px] ">
-            <p>Student</p>
-            <p class=" w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]">
-              Jan 1016 - Dec 2021</p>
+        <!-- This is form protfolio subsection7 -->
+        <div
+          id="protfolio"
+          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+        >
+          <h2 class="headertwo">Portfolio</h2>
+          <p class="w-[438px] h-[68px] fontsmall text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+          </p>
+          <div
+            class="flex gap-x-[37px] items-center justify-center headersmall py-[25px]"
+          >
+            <h4 class="text-[#FFB400]">All categories</h4>
+            <h4>UI Design</h4>
+            <h4>UI Design</h4>
+            <h4>Logo</h4>
+            <h4>Branding</h4>
+          </div>
+          <div class="grid grid-cols-3 gap-[20px] bg-[#FFFFFF] w-full">
+            <div><img class="w-full" src="/Image/protfolio1.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio2.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio3.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio4.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio5.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio6.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio7.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio8.png" /></div>
+            <div><img class="w-full" src="/Image/protfolio9.png" /></div>
           </div>
         </div>
-        <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
-          <h4 class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]  ">Certificate of web training</h4>
-          <p class="fontsmall w-[536px]  h-[100px] ">Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
-            Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-            risus enim neque eget dui.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- This is form workhistory subsection6 -->
-  <div id="WorkHistory" class="flex flex-col gap-[25px] items-center mt-[70px] w-full">
-      <h2 class=" headertwo">Work History</h2>
-      <p class=" w-[438px] h-[68px] fontsmall text-center">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-        velit mollit. lorem ipsum</p>
-      <div class="flex flex-col bg-[#FFFFFF] w-full mt-[25px] ">
-      <div id="Wa" class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]">
-        <div class="flex flex-col gap-y-[25px]">
-          <h4 class="headerfoursmall">Lead Web Designer</h4>
-          <div class="flex gap-[21px] ">
-            <p>Student</p>
-            <p class=" w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]">
-              Jan 1016 - Dec 2021</p>
-          </div>
-        </div>
-        <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
-          <h4 class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]  ">Certificate of web training</h4>
-          <p class="fontsmall w-[536px]  h-[100px] ">Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
-            Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-            risus enim neque eget dui.</p>
-        </div>
-      </div>
-      <div id="Wb" class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]">
-        <div class="flex flex-col gap-y-[25px]">
-          <h4 class="headerfoursmall">Junior Web Designer</h4>
-          <div class="flex gap-[21px] ">
-            <p>Student</p>
-            <p class=" w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]">
-              Jan 1016 - Dec 2021</p>
-          </div>
-        </div>
-        <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
-          <h4 class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]  ">Certificate of web training</h4>
-          <p class="fontsmall w-[536px]  h-[100px] ">Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
-            Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-            risus enim neque eget dui.</p>
-        </div>
-      </div>
-      <div id="Ec" class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]">
-        <div class="flex flex-col gap-y-[25px]">
-          <h4 class="headerfoursmall">Senior Web Designer</h4>
-          <div class="flex gap-[21px] ">
-            <p>Student</p>
-            <p class=" w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]">
-              Jan 1016 - Dec 2021</p>
-          </div>
-        </div>
-        <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
-          <h4 class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]  ">Certificate of web training</h4>
-          <p class="fontsmall w-[536px]  h-[100px] ">Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
-            Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-            risus enim neque eget dui.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- This is form protfolio subsection7 -->
-  <div id="protfolio" class="flex flex-col gap-[25px] items-center mt-[70px] w-full">
-      <h2 class="headertwo">Portfolio</h2>
-      <p class=" w-[438px] h-[68px] fontsmall text-center">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-        velit mollit. lorem ipsum</p>
-    <div class="flex gap-x-[37px] items-center justify-center headersmall py-[25px]">
-      <h4 class="text-[#FFB400]">All categories</h4>
-      <h4>UI Design</h4>
-      <h4>UI Design</h4>
-      <h4>Logo</h4>
-      <h4>Branding</h4>
-    </div>
-    <div class="grid grid-cols-3 gap-[20px] bg-[#FFFFFF] w-full ">
-      <div><img class="w-full" src="/Image/protfolio1.png"></div>
-      <div><img class="w-full" src="/Image/protfolio2.png"></div>
-      <div><img  class="w-full"src="/Image/protfolio3.png"></div>
-      <div><img class="w-full" src="/Image/protfolio4.png"></div>
-      <div><img  class="w-full"src="/Image/protfolio5.png"></div>
-      <div><img  class="w-full"src="/Image/protfolio6.png"></div>
-      <div><img  class="w-full"src="/Image/protfolio7.png"></div>
-      <div><img class="w-full" src="/Image/protfolio8.png"></div>
-      <div><img  class="w-full" src="/Image/protfolio9.png"></div>
-    </div>
-
-  </div>
-  <!-- This is  blog subsection7 -->
-  <section id="Blog" class="flex flex-col gap-[25px] items-center mt-[70px] w-full">
+        <!-- This is  blog subsection7 -->
+        <section
+          id="Blog"
+          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+        >
           <h2 class="headertwo">Blog</h2>
-      <p class=" w-[438px] h-[68px] fontsmall text-center">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-        velit mollit. lorem ipsum</p>
-    <div class="grid grid-cols-3 gap-[20px] mt-[25px] w-full">
-      <div class="flex flex-col text-left bg-[white] gap-y-[8px] px-[25px]">
-        <img class="w-full" src="/Image/blog1.png">
-        <h4 class="mt-[25px] headerfoursmall">How to make web
-          tempates</h4>
-        <p class="fontsmall  w-[268px] h-[70px]">Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
-        <div class="flex  items-center  gap-[9px] pb-[18px]">
-          <h4 class="headerfoursmall text-[#FFB400]">Learn more</h4> 
-          <img class="w-w-[10px] h-[7px] " src="/Image/learn more.png">
+          <p class="w-[438px] h-[68px] fontsmall text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+          </p>
+          <div class="grid grid-cols-3 gap-[20px] mt-[25px] w-full">
+            <div
+              class="flex flex-col text-left bg-[white] gap-y-[8px] px-[25px]"
+            >
+              <img class="w-full" src="/Image/blog1.png" />
+              <h4 class="mt-[25px] headerfoursmall">
+                How to make web tempates
+              </h4>
+              <p class="fontsmall w-[268px] h-[70px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="flex items-center gap-[9px] pb-[18px]">
+                <h4 class="headerfoursmall text-[#FFB400]">Learn more</h4>
+                <img class="w-w-[10px] h-[7px]" src="/Image/learn more.png" />
+              </div>
+            </div>
+            <div
+              class="flex flex-col text-left bg-[white] gap-y-[8px] px-[25px]"
+            >
+              <img class="w-full" src="/Image/protfolio2.png" />
+              <h4 class="mt-[25px] headerfoursmall">make Business card</h4>
+              <p class="fontsmall w-[268px] h-[70px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="flex items-center gap-[9px] pb-[18px]">
+                <h4 class="headerfoursmall text-[#FFB400]">Learn more</h4>
+                <img class="w-w-[10px] h-[7px]" src="/Image/learn more.png" />
+              </div>
+            </div>
+            <div
+              class="flex flex-col text-left bg-[white] gap-y-[8px] px-[25px]"
+            >
+              <img class="w-full" src="/Image/protfolio3.png" />
+              <h4 class="mt-[25px] headerfoursmall">
+                How to make Flyer Design
+              </h4>
+              <p class="fontsmall w-[268px] h-[70px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                nulla diam in ac dictum a urna
+              </p>
+              <div class="flex items-center gap-[9px] pb-[18px]">
+                <h4 class="headerfoursmall text-[#FFB400]">Learn more</h4>
+                <img class="w-w-[10px] h-[7px]" src="/Image/learn more.png" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- This is form subsection8 -->
+        <section
+          id="form"
+          class="flex gap-x-[30px] w-full bg-[#E5E5E5] mt-[25px]"
+        >
+          <div class="flex flex-col basis-3/5 w-full" id="info">
+            <h2 class="w-[289px] h-[40px] headertwo">Leave us your info</h2>
+            <form class="flex flex-col mt-[50px] bg-[#FFFFFF] pr-[20px]">
+              <label class="mt-[25px] mb-[8px] ml-[25px]" for="user"
+                >Your Full Name ( Required)</label
+              >
+              <input
+                id="user"
+                type="text"
+                class="bg-[#F0F0F6] h-[50px] px-[25px] ml-[25px]"
+              />
+              <label class="mt-[25px] mb-[8px] ml-[25px]" for="email"
+                >Your Email ( Required)</label
+              >
+              <input
+                id="email"
+                type="text"
+                class="bg-[#F0F0F6] h-[50px] ml-[25px]"
+              />
+              <label class="mt-[25px] mb-[8px] ml-[25px]" for="subject"
+                >Subject</label
+              >
+              <input
+                id="subject"
+                type="text"
+                class="bg-[#F0F0F6] h-[50px] ml-[25px]"
+              />
+              <label class="mt-[25px] mb-[8px] ml-[25px]" for="message"
+                >Your Message</label
+              >
+              <textarea id="message" class="bg-[#F0F0F6] h-[210px] ml-[25px]">
+              </textarea>
+              <input
+                class="bg-[#FFB400] text-left w-[159px] h-[35px] text-[14px] font-[600] text-[#2B2B2B] px-[24px] mt-[25px] mb-[25px] ml-[25px]"
+                type="submit"
+                value="Send message"
+              />
+            </form>
+          </div>
+          <div class="flex flex-col basis-2/5 w-full" id="contact">
+            <h2
+              class="w-[315px] h-[40px] font-[700] text-[32px] leading-[123.6%] text-[#2B2B2B]"
+            >
+              Contact information
+            </h2>
+            <div class="grid grid-rows-3 mt-[50px] gap-[18px]">
+              <div class="bg-[white]">
+                <div class="flex justify-center items-center">
+                  <div
+                    class="flex w-[40px] h-[40px] rounded-full bg-[#FFB400] justify-center items-center mt-[25px]"
+                  >
+                    <img class="w-[15px] h-[15px]" src="/Image/form.png" />
+                  </div>
+                </div>
+                <div
+                  class="flex justify-center items-end gap-[150px] mt-[31px]"
+                >
+                  <div
+                    class="font-[500] text-[18px] mb-[15px] leading-[123.6%] text-[#767676] gap-[16px]"
+                  >
+                    <h4>Country:</h4>
+                    <h4 class="mt-[16px] mb-[16px]">City:</h4>
+                    <h4>Streat:</h4>
+                  </div>
+                  <div class="fontsmall text-right gap-[16px] mb-[15px]">
+                    <p>Bangladesh</p>
+                    <p class="mt-[16px] mb-[16px]">Dhaka</p>
+                    <p>35 vhatara, Badda</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-[white]">
+                <div class="flex justify-center items-center">
+                  <div
+                    class="flex w-[40px] h-[40px] rounded-full bg-[#FFB400] justify-center items-center mt-[25px]"
+                  >
+                    <img class="w-[15px] h-[15px]" src="/Image/form.png" />
+                  </div>
+                </div>
+                <div
+                  class="flex justify-center items-end gap-[106px] mt-[31px]"
+                >
+                  <div
+                    class="font-[500] text-[18px] mb-[15px] leading-[123.6%] text-[#767676] gap-[16px]"
+                  >
+                    <h4>Email:</h4>
+                    <h4 class="mt-[16px] mb-[16px]">Skype:</h4>
+                    <h4>Telegram:</h4>
+                  </div>
+                  <div class="fontsmall text-right gap-[16px] mb-[15px]">
+                    <p>Byouremail@gmail.com</p>
+                    <p class="mt-[16px] mb-[16px]">@yourusername</p>
+                    <p>@yourusername</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-[white]">
+                <div class="flex justify-center items-center">
+                  <div
+                    class="flex w-[40px] h-[40px] rounded-full bg-[#FFB400] justify-center items-center mt-[25px]"
+                  >
+                    <img class="w-[15px] h-[15px]" src="/Image/form.png" />
+                  </div>
+                </div>
+                <div class="flex justify-center items-end gap-[40px] mt-[31px]">
+                  <div
+                    class="headerfoursmall text-[#767676] mb-[15px] gap-[16px]"
+                  >
+                    <h4>Support services:</h4>
+                    <h4 class="mt-[16px] mb-[16px]">Office:</h4>
+                    <h4>Personal:</h4>
+                  </div>
+                  <div class="fontsmall text-right gap-[16px] mb-[15px]">
+                    <p>15369</p>
+                    <p class="mt-[16px] mb-[16px]">+58 (021)356 587 235</p>
+                    <p>+58 (021)356 587 235</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- This is map subsection9 -->
+        <div id="map" class="mt-[71px] w-full">
+          <iframe
+            class="w-full h-[400px]"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.2767307649806!2d83.46638641181961!3d27.642248483756255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996864275d9755f%3A0x2b1e92d89d4bb3ae!2sButwal!5e0!3m2!1sen!2snp!4v1686220310913!5m2!1sen!2snp"
+          ></iframe>
+
+          <div id="Logo" class="flex w-[full] mt-[93px] justify-between">
+            <img class="w-[140px] h-[140px]" src="/Image/footer1.png" />
+            <img class="w-[140px] h-[140px]" src="/Image/footer2.png" />
+            <img class="w-[140px] h-[140px]" src="/Image/footer3.png" />
+            <img class="w-[140px] h-[140px]" src="/Image/footer4.png" />
+          </div>
+          <div
+            class="flex items-center justify-center w-[full] h-[60px] bg-[#FFFFFF] py-[18px] pl-[379px] pr-[340px] mt-[70px]"
+          >
+            <p class="black">2021 All Rights Reserved.Ojjomedia</p>
+          </div>
         </div>
-      </div>
-      <div class="flex flex-col text-left bg-[white] gap-y-[8px] px-[25px]">
-        <img class="w-full" src="/Image/protfolio2.png">
-        <h4 class="mt-[25px] headerfoursmall">make Business card</h4>
-        <p class="fontsmall  w-[268px] h-[70px]">Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
-        <div class="flex  items-center  gap-[9px] pb-[18px]">
-          <h4 class="headerfoursmall text-[#FFB400]">Learn more</h4> 
-          <img class="w-w-[10px] h-[7px] " src="/Image/learn more.png">
+      </section>
+      <!-- This is form right section3 -->
+      <section
+        id="right"
+        class="flex flex-col bg-slate-50 space-y-52 w-[4%] items-center fixed right-[0px] h-full"
+      >
+        <div
+          class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl my-14"
+        >
+          <img src="/Image/sidebar1.png" />
         </div>
-      </div>
-      <div class="flex flex-col text-left bg-[white] gap-y-[8px] px-[25px]">
-        <img class="w-full" src="/Image/protfolio3.png">
-        <h4 class="mt-[25px] headerfoursmall">How to make Flyer Design</h4>
-        <p class="fontsmall  w-[268px] h-[70px]">Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
-        <div class="flex  items-center  gap-[9px] pb-[18px]">
-          <h4 class="headerfoursmall text-[#FFB400]">Learn more</h4> 
-          <img class="w-w-[10px] h-[7px] " src="/Image/learn more.png">
+        <div class="space-y-14">
+          <div
+            class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl bg-[#FFB400]"
+          >
+            <img src="/Image/sibebar2.png" />
+          </div>
+          <div
+            class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl"
+          >
+            <img src="/Image/sidebar3.png" />
+          </div>
+          <div
+            class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl"
+          >
+            <img src="/Image/side4.png" />
+          </div>
+          <div
+            class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl"
+          >
+            <img src="/Image/side5.png" />
+          </div>
+          <div
+            class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl"
+          >
+            <img src="/Image/side6.png" />
+          </div>
+
+          <a class="" href="#form"
+            ><div
+              class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl"
+            >
+              <img src="/Image/side7.png" />
+            </div>
+          </a>
         </div>
-      </div>
+      </section>
     </div>
-
-  </section>
-  <!-- This is form subsection8 -->
-  <section id="form" class="flex   gap-x-[30px] w-full bg-[#E5E5E5] mt-[25px]">
-    <div class="flex flex-col grow-[1] " id="info">
-      <h2 class="w-[289px] h-[40px] headertwo">Leave us your info</h2>
-      <form class="flex flex-col mt-[50px] bg-[#FFFFFF]   ">
-        <label class="mt-[25px] mb-[8px] ml-[25px]" for="user">Your Full Name ( Required)</label>
-        <input id="user" type="text" class="bg-[#F0F0F6] w-[521px] h-[50px] px-[25px]">
-        <label class="mt-[25px] mb-[8px] ml-[25px]" for="email">Your Email ( Required)</label>
-        <input id="email" type="text" class="bg-[#F0F0F6] w-[521px] h-[50px] ml-[25px]">
-        <label class="mt-[25px] mb-[8px] ml-[25px]" for="subject">Subject</label>
-        <input id="subject" type="text" class="bg-[#F0F0F6] w-[521px] h-[50px] ml-[25px]">
-        <label class="mt-[25px] mb-[8px] ml-[25px]" for="message">Your Message</label>
-        <textarea id="message" class="bg-[#F0F0F6] w-[521px] h-[210px] ml-[25px]">
-                  </textarea>
-        <input
-          class="bg-[#FFB400] text-left w-[159px] h-[35px] text-[14px] font-[600] text-[#2B2B2B] px-[24px] mt-[25px] mb-[25px] ml-[25px]"
-          type="submit" value="Send message">
-      </form>
-
-    </div>
-    <div class="flex flex-col " id="contact">
-      <h2 class=" w-[315px] h-[40px] font-[700] text-[32px] leading-[123.6%] text-[#2B2B2B]">Contact information</h2>
-      <div class="grid grid-rows-3 mt-[50px] gap-[18px]">
-        <div class="w-[370px] h-[210px] bg-[white]">
-          <div class=" flex justify-center items-center  ">
-            <div class="flex w-[40px] h-[40px] rounded-full bg-[#FFB400] justify-center items-center mt-[25px]"><img
-                class="w-[15px] h-[15px]  " src="/Image/form.png">
-            </div>
-          </div>
-          <div class="flex justify-center items-end gap-[150px] mt-[31px]">
-            <div class=" font-[500] text-[18px] mb-[15px] leading-[123.6%] text-[#767676] gap-[16px]">
-              <h4>Country:</h4>
-              <h4 class="mt-[16px] mb-[16px]">City:</h4>
-              <h4>Streat:</h4>
-            </div>
-            <div class=" fontsmall text-right gap-[16px] mb-[15px]">
-              <p>Bangladesh</p>
-              <p class="mt-[16px] mb-[16px]">Dhaka</p>
-              <p>35 vhatara, Badda</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="w-[370px] h-[210px] bg-[white]">
-          <div class=" flex justify-center items-center  ">
-            <div class="flex w-[40px] h-[40px] rounded-full bg-[#FFB400] justify-center items-center mt-[25px]"><img
-                class="w-[15px] h-[15px]  " src="/Image/form.png">
-            </div>
-          </div>
-          <div class="flex justify-center items-end gap-[106px] mt-[31px]">
-            <div class=" font-[500] text-[18px] mb-[15px] leading-[123.6%] text-[#767676] gap-[16px]">
-              <h4>Email:</h4>
-              <h4 class="mt-[16px] mb-[16px]">Skype:</h4>
-              <h4>Telegram:</h4>
-            </div>
-            <div class=" fontsmall text-right gap-[16px] mb-[15px]">
-              <p>Byouremail@gmail.com</p>
-              <p class="mt-[16px] mb-[16px]">@yourusername</p>
-              <p>@yourusername</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="w-[370px] h-[210px] bg-[white]">
-          <div class=" flex justify-center items-center  ">
-            <div class="flex w-[40px] h-[40px] rounded-full bg-[#FFB400] justify-center items-center mt-[25px]"><img
-                class="w-[15px] h-[15px]  " src="/Image/form.png">
-            </div>
-          </div>
-          <div class="flex justify-center items-end gap-[40px] mt-[31px]">
-            <div class=" headerfoursmall text-[#767676] mb-[15px]  gap-[16px]">
-              <h4>Support services:</h4>
-              <h4 class="mt-[16px] mb-[16px]">Office:</h4>
-              <h4>Personal:</h4>
-            </div>
-            <div class=" fontsmall text-right gap-[16px] mb-[15px]">
-              <p>15369</p>
-              <p class="mt-[16px] mb-[16px]">+58 (021)356 587 235</p>
-              <p>+58 (021)356 587 235</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- This is map subsection9 -->
-  <div id="map" class="mt-[71px] w-full">
-    <iframe class="w-full h-[400px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.2767307649806!2d83.46638641181961!3d27.642248483756255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996864275d9755f%3A0x2b1e92d89d4bb3ae!2sButwal!5e0!3m2!1sen!2snp!4v1686220310913!5m2!1sen!2snp"  ></iframe>
-       
- 
-  <div id="Logo" class="flex  w-[full]  mt-[93px]   justify-between ">
-    <img class="w-[140px] h-[140px]" src="/Image/footer1.png">
-    <img class="w-[140px] h-[140px]" src="/Image/footer2.png">
-    <img class="w-[140px] h-[140px]" src="/Image/footer3.png">
-    <img class="w-[140px] h-[140px]" src="/Image/footer4.png">
-  </div>
-  <div
-    class=" flex items-center justify-center    w-[full] h-[60px] bg-[#FFFFFF] py-[18px] pl-[379px] pr-[340px]   mt-[70px]">
-    <p class="black">2021 All Rights Reserved.Ojjomedia</p></div> 
-  </div>
-  </section>
-  <!-- This is form right section3 -->
-  <section id="right" class="flex flex-col bg-slate-50 space-y-52 w-[4%] items-center fixed right-[0px] h-full ">
-    <div class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl my-14">
-      <img src="/Image/sidebar1.png" />
-    </div>
-    <div class="space-y-14">
-      <div class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl bg-[#FFB400]">
-        <img src="/Image/sibebar2.png" />
-      </div>
-      <div class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl">
-        <img src="/Image/sidebar3.png" />
-      </div>
-      <div class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl">
-        <img src="/Image/side4.png" />
-      </div>
-      <div class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl">
-        <img src="/Image/side5.png" />
-      </div>
-      <div class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl">
-        <img src="/Image/side6.png" />
-      </div>
-      <div class="flex item-center justify-center m-1 p-1 w-6 h-6 rounded-3xl">
-        <img src="/Image/side7.png" />
-      </div>
-    </div>
-  </section>
-  </div>
-</body>
-
+  </body>
 </html>
