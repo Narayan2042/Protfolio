@@ -314,24 +314,28 @@
       <!-- This is from middle section2 -->
       <section
         id="middle"
-        class="flex flex-col w-full px-[20px] py-[10px] mr-[4%]"
+        class="flex flex-col overflow-auto w-full gap-[70px] px-[10px] py-[20px] mr-[80px] max-[800px]:mr-[60px]"
       >
         <!-- This is from heading subsection1 -->
         <div
-          class="flex justify-between bg-slate-50 w-full px-[40px] gap-y-[18px] relative"
+          class="flex justify-between bg-slate-50 gap-[40px] px-[10px] py-[30px] relative max-[700px]:flex-wrap"
         >
-          <div class="flex flex-col px-[35px] gap-y-[15px]">
+          <div
+            class="flex flex-col justify-center basis-2/3 py-[20px] gap-[15px] max-[450px]:order-2 max-[450px]:grow"
+          >
             <p
-              class="max-w-[500px] mt-[93px] font-[700] text-[48px] leading-[123.6%]"
+              class="max-w-[500px] font-[700] text-[48px] leading-[123.6%] max-[1390px]:text-[36px]"
             >
               I’m Rayan Adlrdard
               <span class="text-[#FFB400]">Front-end</span> Developer
             </p>
             <img
-              class="absolute w-[16px]h-[16px] top-[10%] left-[5%]"
+              class="absolute w-[16px] h-[16px] top-[10%] left-[5%]"
               src="/Image/middle-1-o.png"
             />
-            <p class="font-[400] text-16px leading-[24px] max-w-[424px]">
+            <p
+              class="font-[400] text-16px leading-[24px] max-w-[424px] max-[1024px]:text-[13px]"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
               volutpat feugiat placerat lobortis. Natoque rutrum semper sed
               suspendisse nunc lectus.
@@ -343,15 +347,16 @@
               <img src="/image/secondcol/arrow.png" />
             </button>
             <img
-              class="absolute w-[16px]h-[16px] bottom-[9%] left-[10%]"
+              class="absolute w-[16px] h-[16px] bottom-[9%] left-[10%]"
               src="/Image/middle-1-green0.png"
             />
             <img
-              class="absolute w-[16px]h-[16px] bottom-[35%] left-[40%]"
+              class="absolute w-[16px] h-[16px] bottom-[35%] left-[40%]"
               src="/Image/middle-1-rectangleb.png"
             />
           </div>
-          <div class="w-[325.72px] h-[495.09px] pt-[35px] mr-[45px]">
+          <!-- Image main -->
+          <div class="flex basis-1/3 h-[full]">
             <img src="/image/secondcol/Your Image 1.png" />
           </div>
           <img
@@ -372,16 +377,17 @@
           />
         </div>
         <!-- This is from myservice subsection2 -->
-        <div
-          id="myservices"
-          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
-        >
-          <h2 class="headertwo">My Services</h2>
-          <p class="w-[438px] h-[68] text-center fontsmall">
+        <div id="myservices" class="flex flex-col gap-[25px] items-center">
+          <h2 class="headertwo max-[1024px]:text-[18px]">My Services</h2>
+          <p
+            class="max-w-[438px] text-center fontsmall max-[1024px]:text-[12px]"
+          >
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. lorem ipsum
           </p>
-          <div class="grid grid-cols-3 mt-[25px] gap-[20px]">
+          <div
+            class="grid grid-cols-3 mt-[25px] text-center gap-[20px] max-[1024px]:grid-cols-2 max-[800px]:grid-cols-1"
+          >
             <div
               class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
             >
@@ -421,7 +427,7 @@
               class="flex flex-col items-center bg-white py-[37px] gap-[15px]"
             >
               <h4 class="headerfoursmall">advertising</h4>
-              <p class="fontsmall px-[60px] text-center">
+              <p class="fontsmall px-[60px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
                 nulla diam in ac dictum a urna viverra morbi.
               </p>
@@ -437,15 +443,17 @@
         <!-- This is from pricelan subsection3 -->
         <div
           id="priceplan"
-          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+          class="flex flex-col gap-[25px] items-center w-full"
         >
           <h2 class="headertwo">Price plans</h2>
-          <p class="w-[438px] h-[68] text-center fontsmall">
+          <p class="max-w-[438px] text-center fontsmall">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. lorem ipsum
           </p>
-          <div class="grid grid-cols-3 gap-[21px] w-full mt-[25px]">
-            <div class="flex flex-col mt-[20px] bg-[#FFFFFF]">
+          <div
+            class="grid grid-cols-3 gap-[21px] mt-[25px] max-[1024px]:grid-cols-2 max-[850px]:grid-cols-1"
+          >
+            <div class="flex flex-col mt-[20px] bg-[#FFFFFF] items-center">
               <div
                 id="silver"
                 class="flex flex-col justify-center items-center pt-[54px] gap-y-[25px]"
@@ -457,42 +465,42 @@
                 </div>
               </div>
               <p
-                class="w-[248px] h-[48px] text-center mx-[31px] fontsmall mb-[25px]"
+                class="max-w-[248px] h-[48px] text-center mx-[31px] fontsmall mb-[25px]"
               >
                 For most businesses that want to optimize web queries
               </p>
 
               <div class="flex flex-col mx-[36px] gap-y-[17px] pt-[21px]">
                 <div class="flex gap-[19px]">
-                  <img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
+                  <img class="w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
                   <p class="black">UI Design</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">web development</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">logo design</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">seo optimization</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">wordPress integration</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">5 Websites</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">unlimited user</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">20 gB bandwith</p>
                 </div>
               </div>
@@ -502,10 +510,8 @@
                 ORDER NOW
               </button>
             </div>
-            <div class="flex flex-col mt-[20px] bg-[#FFFFFF]">
-              <p class="black text-center bg-[#FFB400] h-[30px]">
-                most popular
-              </p>
+            <div class="flex flex-col mt-[20px] bg-[#FFFFFF] items-center">
+              <p class="black text-center w-full bg-[#FFB400]">most popular</p>
               <div
                 id="silver"
                 class="flex flex-col justify-center items-center pt-[25px] gap-y-[25px]"
@@ -517,42 +523,42 @@
                 </div>
               </div>
               <p
-                class="w-[248px] h-[48px] text-center mx-[31px] fontsmall mb-[25px]"
+                class="max-w-[248px] text-center mx-[31px] fontsmall mb-[25px]"
               >
                 For most businesses that want to optimize web queries
               </p>
 
               <div class="flex flex-col mx-[36px] gap-y-[17px] pt-[21px]">
                 <div class="flex gap-[19px]">
-                  <img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
+                  <img class="w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
                   <p class="black">UI Design</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">web development</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/tick1.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/tick1.png" />
                   <p class="black">logo design</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">seo optimization</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/Close.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/Close.png" />
                   <p class="fontsmall">wordPress integration</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">5 Websites</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">unlimited user</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[13px] h[13px]" src="/Image/Close.png" />
+                  <img class="w-[13px] h[13px]" src="/Image/Close.png" />
                   <p class="fontsmall">20 gB bandwith</p>
                 </div>
               </div>
@@ -562,7 +568,7 @@
                 ORDER NOW
               </button>
             </div>
-            <div class="flex flex-col mt-[20px] bg-[#FFFFFF]">
+            <div class="flex flex-col mt-[20px] bg-[#FFFFFF] items-center">
               <div
                 id="silver"
                 class="flex flex-col justify-center items-center pt-[54px] gap-y-[25px]"
@@ -574,42 +580,42 @@
                 </div>
               </div>
               <p
-                class="w-[248px] h-[48px] text-center mx-[31px] fontsmall mb-[25px]"
+                class="max-w-[248px] text-center mx-[31px] fontsmall mb-[25px]"
               >
                 For most businesses that want to optimize web queries
               </p>
 
               <div class="flex flex-col mx-[36px] gap-y-[17px] pt-[21px]">
                 <div class="flex gap-[19px]">
-                  <img class="w-w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
+                  <img class="w-[17.6px] h[12.2px]" src="/Image/tick1.png" />
                   <p class="black">UI Design</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">web development</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="back">logo design</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">seo optimization</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">wordPress integration</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">5 Websites</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">unlimited user</p>
                 </div>
                 <div class="flex gap-[18px]">
-                  <img class="w-w-[17px] h[12px]" src="/Image/tick1.png" />
+                  <img class="w-[17px] h[12px]" src="/Image/tick1.png" />
                   <p class="black">20 gB bandwith</p>
                 </div>
               </div>
@@ -624,15 +630,17 @@
         <!-- This is from recomdation subsection4 -->
         <div
           id="recomdation"
-          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+          class="flex flex-col gap-[25px] items-center w-full"
         >
           <h2 class="headertwo">Recommendations</h2>
-          <p class="fontsmall w-[438px] h-[68] text-center">
+          <p class="fontsmall max-w-[438px] text-center">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. lorem ipsum
           </p>
 
-          <div class="grid grid-cols-3 gap-x-[25px] mt-[25px]">
+          <div
+            class="grid grid-cols-3 gap-x-[25px] mt-[25px]max-[1024px]:grid-cols-2 max-[850px]:grid-cols-1"
+          >
             <div
               class="flex flex-col bg-[#FFFFFF] gap-y-[18px] px-[25px] pt-[25px]"
             >
@@ -727,36 +735,36 @@
         <!-- This is from education subsection5 -->
         <div
           id="Education"
-          class="flex flex-col gap-[25px] items-center mt-[70px] w-full"
+          class="flex flex-col gap-[25px] items-center w-full"
         >
           <h2 class="headertwo">Education</h2>
-          <p class="w-[438px] h-[68px] fontsmall text-center">
+          <p class="max-w-[438px] fontsmall text-center">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. lorem ipsum
           </p>
           <div class="flex flex-col bg-[#FFFFFF] w-full mt-[25px]">
             <div
               id="Ea"
-              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+              class="flex justify-between px-[25px] border-b-[1.5px] pt-[51px]"
             >
               <div class="flex flex-col gap-y-[25px]">
                 <h4 class="headerfoursmall">University of Toronto</h4>
-                <div class="flex gap-[21px]">
+                <div class="flex gap-[21px] max-[1180px]:flex-wrap">
                   <p>Student</p>
                   <p
-                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                    class="flex justify-center items-center rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
                   >
                     Jan 1016 - Dec 2021
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+              <div class="flex flex-col gap-y-[25px] pb-[10px]">
                 <h4
                   class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
                 >
                   Certificate of web training
                 </h4>
-                <p class="fontsmall w-[536px] h-[100px]">
+                <p class="fontsmall max-w-[536px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                   dapibus nibh ut faucibus nunc, egestas id amet porttitor.
                   Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
@@ -766,27 +774,27 @@
               </div>
             </div>
             <div
-              id="Eb"
-              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+              id="Ea"
+              class="flex justify-between px-[25px] border-b-[1.5px] pt-[51px]"
             >
               <div class="flex flex-col gap-y-[25px]">
                 <h4 class="headerfoursmall">Programming Course</h4>
-                <div class="flex gap-[21px]">
+                <div class="flex gap-[21px] max-[1180px]:flex-wrap">
                   <p>Student</p>
                   <p
-                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                    class="flex justify-center items-center rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
                   >
                     Jan 1016 - Dec 2021
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+              <div class="flex flex-col gap-y-[25px] pb-[10px]">
                 <h4
                   class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
                 >
                   Certificate of web training
                 </h4>
-                <p class="fontsmall w-[536px] h-[100px]">
+                <p class="fontsmall max-w-[536px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                   dapibus nibh ut faucibus nunc, egestas id amet porttitor.
                   Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
@@ -796,27 +804,27 @@
               </div>
             </div>
             <div
-              id="Ec"
-              class="flex justify-between px-[50px] border-b-[1.5px] pt-[51px]"
+              id="Ea"
+              class="flex justify-between px-[25px] border-b-[1.5px] pt-[51px]"
             >
               <div class="flex flex-col gap-y-[25px]">
                 <h4 class="headerfoursmall">Web developer courses</h4>
-                <div class="flex gap-[21px]">
+                <div class="flex gap-[21px] max-[1180px]:flex-wrap">
                   <p>Student</p>
                   <p
-                    class="w-[111] h-[18] rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
+                    class="flex justify-center items-center rounded-[1px] bg-[#FFB400] text-[10px] text-[#FFFFFF] font-[400] leading-[100.9%] px-[7px] py-[4px]"
                   >
                     Jan 1016 - Dec 2021
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-y-[25px] pb-[10px] pr-[100px]">
+              <div class="flex flex-col gap-y-[25px] pb-[10px]">
                 <h4
                   class="font-[500] text-[18px] leading-[123.6%] text-[#2B2B2B]"
                 >
                   Certificate of web training
                 </h4>
-                <p class="fontsmall w-[536px] h-[100px]">
+                <p class="fontsmall max-w-[536px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                   dapibus nibh ut faucibus nunc, egestas id amet porttitor.
                   Pulvinar quisque sed amet, nulla nunc. Eleifend sodales
@@ -1172,7 +1180,7 @@
       <!-- This is from right section3 -->
       <section
         id="right"
-        class="flex flex-col bg-slate-50 space-y-52 w-[4%] items-center fixed right-[0px] h-full"
+        class="bg-slate-50 flex flex-col items-center gap-[80px] w-[80px] h-full pt-[52px] fixed top-0 right-0"
       >
         <!-- this is dark/day button -->
         <div>
